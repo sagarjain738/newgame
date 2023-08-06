@@ -1,0 +1,134 @@
+[
+  {
+    "id": "1",
+    "Question": "When Honeywell Founded",
+    "options": ["1905", "1990", "1885", "2000"],
+    "type": "obj",
+    "answer": "1885"
+  },
+  {
+    "id": "2",
+    "Question": "What is the boiling temperature of petrol?",
+    "options": ["40-120 °C", "120-180 °C", "180-250 °C", "250-320 °C"],
+    "type": "obj",
+    "answer": "120-180 °C"
+  },
+  {
+    "id": "3",
+    "Question": "Unit of Density ",
+    "options": ["Kg/m3", "Kg/m2"],
+    "type": "obj",
+    "answer": "Kg/m3"
+  },
+  {
+    "id": "4",
+    "Question": "MSC-L stands for",
+    "options": [
+      "Multistream Controller for Loading",
+      "Multiple Controller Leveler",
+      "Multiple Communication for Local Data",
+      "Multimedia Controller for Loading"
+    ],
+    "type": "obj",
+    "answer": "Multistream Controller for Loading"
+  },
+  {
+    "id": "5",
+    "Question": "ANPR stands for",
+    "options": [
+      "Automatic Number plate recognition",
+      "Automatic New Person recognition",
+      "Automatic Number of People recognition",
+      "Automatic Name Phone Retriever"
+    ],
+    "type": "obj",
+    "answer": "Automatic Number plate recognition"
+  },
+  {
+    "id": "7",
+    "Question": "ChatGPT stands for",
+    "options": [
+      "Chat Generative Pre-Trained Transformer",
+      "Chat That Generates Proper Text",
+      "Chat generation for Public Tutor",
+      "Chat Generated for Public Transmitted Request"
+    ],
+    "type": "obj",
+    "answer": "Chat Generative Pre-Trained Transformer"
+  },
+  {
+    "id": "8",
+    "Question": "TFMS stands for",
+    "options": [
+      "Tank Farm Management System",
+      "Tractor & Farm Management System",
+      "Total Finance Management System",
+      "Technical Firmware Management System"
+    ],
+    "type": "obj",
+    "answer": "Tank Farm Management System"
+  },
+  {
+    "id": "9",
+    "Question": "OCR stands for",
+    "options": [
+      "Optical Character Recognition",
+      "Original Car Recognition",
+      "Obstructive Cable Recognition",
+      "Original Channel Retrieval"
+    ],
+    "type": "obj",
+    "answer": "Optical Character Recognition"
+  },
+  {
+    "id": "10",
+    "Question": "API stands for",
+    "options": [
+      "Application programming interface",
+      "Application & Peripheral interraction",
+      "Application & Program interraction",
+      "Application & People Inclose Data"
+    ],
+    "type": "obj",
+    "answer": "Application programming interface"
+  },
+  {
+    "id": "11",
+    "Question": "Which is not a browser",
+    "options": ["Bravo", "Thar", "Safari", "Tor"],
+    "type": "obj",
+    "answer": "Thar"
+  },
+  {
+    "id": "12",
+    "Question": "What is RFID",
+    "options": [
+      "Radio Frequency Identification tag",
+      "Receiver Frequency Indicator",
+      "Really Funny Idea Dude",
+      "Radio Frequency Identity Tracker"
+    ],
+    "type": "obj",
+    "answer": "Radio Frequency Identification tag"
+  },
+  {
+    "id": "13",
+    "Question": "Which is not a mobile OS",
+    "options": [
+      "Android (Google)",
+      "iOS (Apple)",
+      "Bada (Samsung)",
+      "Sailfish",
+      "All of the above"
+    ],
+    "type": "obj",
+    "answer": "All of the above"
+  },
+  {
+    "id": "14",
+    "Question": "It occurs once in a minute, twice in a moment, but never in an hour",
+    "options": ["M", "W", "A", "B", "All"],
+    "type": "obj",
+    "answer": "All"
+  }
+]

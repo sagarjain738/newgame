@@ -1,0 +1,3 @@
+export const TRUCK_SELECTED = "TRUCK_SELECTED";
+export const GATE_SELECTED = "GATE_SELECTED";
+export const LOGIN_USER = "LOGIN_USER";
