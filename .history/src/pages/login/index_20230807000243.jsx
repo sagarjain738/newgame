@@ -16,7 +16,7 @@ const Login = () => {
     },
     {
       onSuccess: () => {
-        redirect("/");
+        return redirect("/");
       },
     }
   );
@@ -28,14 +28,7 @@ const Login = () => {
     if (nameRegex) {
       sessionStorage.setItem("username", username);
       sessionStorage.setItem("page", 1);
-      mutation.mutate(
-        { username: username },
-        {
-          onSuccess: () => {
-            redirect("/");
-          },
-        }
-      );
+      mutation.mutate({ username: username });
     } else if (!nameRegex) {
       setError(true);
     }

@@ -3,7 +3,6 @@ import axios from "axios";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import { useMutation } from "react-query";
-import { redirect } from "next/navigation";
 
 const Login = () => {
   const [username, setUsername] = useState("");
@@ -16,7 +15,7 @@ const Login = () => {
     },
     {
       onSuccess: () => {
-        redirect("/");
+        return router.replace("/");
       },
     }
   );
@@ -28,14 +27,7 @@ const Login = () => {
     if (nameRegex) {
       sessionStorage.setItem("username", username);
       sessionStorage.setItem("page", 1);
-      mutation.mutate(
-        { username: username },
-        {
-          onSuccess: () => {
-            redirect("/");
-          },
-        }
-      );
+      mutation.mutate({ username: username });
     } else if (!nameRegex) {
       setError(true);
     }

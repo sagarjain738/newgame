@@ -10,7 +10,6 @@ import Timer from "./Timer";
 import ButtonTimer from "./ButtonTimer";
 import SubmitTimer from "./SubmitTimer";
 import Link from "next/link";
-import { redirect } from "next/navigation";
 
 const Quiz = ({ userName }) => {
   const [question, setQuestions] = useState([]);
